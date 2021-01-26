@@ -11,7 +11,7 @@ if( document.getElementById("v_app") ) {
         },
         created() {
             //alert("ol")
-            this.url = window.location.origin + '/examn_php/app/?controller=public&action=';
+            this.url = window.location.origin + '/ExamphpPDO/app/?controller=public&action=';
             this.allClientes();
         },computed:{
 
@@ -49,7 +49,7 @@ if( document.getElementById("v_registro") ) {
     
         },
         created() {
-            this.url = window.location.origin + '/examn_php/app/?controller=public&action=insert_registro';
+            this.url = window.location.origin + '/ExamphpPDO/app/?controller=public&action=insert_registro';
          
         },
         methods: {
